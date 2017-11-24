@@ -1,0 +1,77 @@
+﻿body {
+    background-color:rgb(75, 214, 254);
+}
+.row{
+    position:relative;
+}
+.row .filmpost{
+    position:relative;
+    width:29.7%;
+    height:350px;
+    margin:8px;
+    margin-bottom:35px;
+    padding:5px;
+    background-color:#2b0a0a;
+    border-radius:8px;
+    float:left;
+    z-index:97;
+}
+.filmpost .view{
+    border:0px solid #654343;
+    background-color:#1a1919;
+    border-radius:5px;
+    font-size:small;
+    color:white;
+    padding:5px;
+    width:auto;
+    position:absolute;
+    top:15px;
+    right:10px;
+    font-weight:bold;
+    z-index:1999;
+}
+.row .filmpost img{
+    height:99%;
+    width:99%;
+    border-radius:3px;
+    z-index:-69;
+}
+.filmpost .ep{
+    border:0px solid #654343;
+    background-color:rgba(5, 90, 134, 0.92);
+    border-radius:5px;
+    font-size:larger;
+    color:white;
+    padding:5px;
+    width:auto;
+    position:absolute;
+    bottom:13.5px;
+    left:115px;
+    z-index:1999;
+}
+.filmpost .tenfilm{
+    background-color:white;
+    font-size:larger;
+    font-weight:bold;
+    margin:1px;
+    padding:3px;
+    text-align:center;
+    color:yellowgreen;
+    background-color:#2b0a0a;
+    border-radius:3px;
+    border:5px solid black;
+}
+body .buttonpage .butoz{
+    background-color:#b43333;
+    color:white;
+    width:60px;
+    height:40px;
+    margin:20px;
+    padding:5px;
+    font-weight:bold;
+}
+body .buttonpage{
+    margin-left:220px;
+}
+
+

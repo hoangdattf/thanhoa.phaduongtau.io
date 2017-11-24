@@ -1,0 +1,32 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+#boxes .window {
+  position:fixed;
+  left:0;
+  top:0;
+  width:740px;
+  display:none;
+  z-index:999999999;
+  padding:10px;
+  margin-top:0px;
+}
+#boxes #dialog {
+  width:740px;
+  margin: 10px; 
+  background-color:#ffffff;
+}
+.tieude {
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+	background-color:#F93;
+	padding-left:5px;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LỌC PHIM</title>
+    <meta charset="utf-8" />
+    <link href="CSS/CSSFAss.css" rel="stylesheet" />
+    <script src="JS/Jquery.js"></script>
+    <link rel="shortcut icon" href="https://dynamicfireworks.co.uk/wp-content/uploads/2016/02/cropped-df_favicon-1.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><img src="ImageAss/logo.png" /></a>
+            <div class="login">
+                <input type="text" class="formdk" placeholder=" Tài Khoản..." tabindex="1" />
+                <input type="password" placeholder="Mật Khẩu..." class="formdk" tabindex="2" />
+                <input type="submit" class="form-button" value="Đăng Nhập" tabindex="3" onclick="alert('Đăng Nhập Thất Bại, Hãy Thử Lại!')" /></br>
+                <a href="forgetpw.html">Quên Mật Khẩu...</a>
+                <a href="#"><input type="submit" value="Đăng  Ký&nbsp;&nbsp;" class="form-button" tabindex="4" /></a>
+                <div class="fblog"><a href="#"><img src="http://www.freeiconspng.com/uploads/facebook-sign-in-button-png-26.png" /></a> </div>
+                <div class="gmaillog"><a href="#"><img src="https://dizivizi.com/mbb/imgs/buttons/googlep.png"></a></div>
+                
+            </div>
+            <div class="menu" style="width:100%;">
+                <ul>
+                    <li><a href="index.html"> &emsp;&emsp;&emsp;&emsp;&emsp;TRANG CHỦ    </a></li>&emsp;&emsp;  |&emsp;
+                    <li>
+                        <a href="#"> THỂ LOẠI </a>
+                        <div class="sub">
+                            <div class="colum">
+                                <a href="type/hanhdong.html">Hành Động </a>
+                                <a href="type/phieuluu.html">Phiêu Lưu</a>
+                                <a href="type/giatuong.html">Giả Tưởng</a>
+                                <a href="type/haihuoc.html">Hài Hước</a>
+                                <a href="type/tinhcam.html">Tình Cảm</a>
+                                <a href="type/kibi.html">Kì Bí</a>
+                                <a href="type/kinhdi.html">Kinh Dị</a>
+                            </div>
+                            <div class="colum">
+                                <a href="type/trinhtham.html">Trinh Thám </a>
+                                <a href="type/mecha.html">Mecha</a>
+                                <a href="type/vothuat.html">Võ Thuật</a>
+                                <a href="type/parody.html">Parody</a>
+                                <a href="type/thethao.html">Thể Thao</a>
+                                <a href="type/acquy.html">Ác Quỷ</a>
+                                <a href="type/hocduong.html">Học Đường</a>
+                            </div>
+                            <div class="colum">
+                                <a href="type/harem.html">Harem </a>
+                                <a href="type/baoluc.html">Bạo Lực</a>
+                                <a href="type/phepthuat.html">Phép Thuật</a>
+                                <a href="type/lichsu.html">Lịch Sử</a>
+                                <a href="type/drama.html">Drama</a>
+                                <a href="type/tragedy.html">Tragedy</a>
+                                <a href="type/game.html">Game</a>
+                            </div>
+                        </div>
+                    </li>&emsp;; |&emsp;
+                    <li>
+                        <a href="filter.html"> LỌC PHIM  </a>
+                    </li>&nbsp; |&nbsp;
+                    <li><a href="Bangxephang.html"> &emsp;BẢNG XẾP HẠNG    </a></li> &emsp; |&emsp;
+                    <li>
+                        <a href="lienhe.html">LIÊN HỆ </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <nav style="width:100%;">
+            <div class="secondmenu">
+                <ul style="text-align:left">
+                    <li><a href="filter.html">LỌC PHIM</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <article style="width:100%; min-height:500px;">
+            <div class="locfilm">
+                <form>
+                    <div class="formfil">
+                        <label style="color:white">Từ Khóa Tìm Kiếm :</label>
+                        <input type="text" class="formset" />
+                    </div>
+                    <div class="formfil">
+                        <label style="color:white">Thời Gian</label><hr />
+                        <label style="color:white">NĂM :</label>
+                        <select>
+                            <option selected>Tất Cả</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option> < 2010</option>
+                        </select>
+                        <label style="color:white">QUÝ: </label>
+                        <select>
+                            <option selected>Tất Cả</option>
+                            <option>Quý 1</option>
+                            <option>Quý 2</option>
+                            <option>Quý 3</option>
+                            <option>Quý 4</option>
+                        </select><br />
+                    </div>
+                    <div class="formfil">
+                        <fieldset>
+                            <legend><label style="color:white">THỂ LOẠI</label></legend>
+                                <div class="space"><label style="color:white"><input type="checkbox" />Ác Quỷ</label></div>
+                                <div class="space"> <label style="color:white"><input type="checkbox" />Bạo Lực</label></div>
+                                <div class="space"><label style="color:white"><input type="checkbox" />Drama</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Game</label></div>
+                                <div class="space"><label style="color:white"><input type="checkbox" />Giả Tưởng</label></div>
+                                <div class="space"><label style="color:white"><input type="checkbox" />Hài Hước</label></div>
+                                <div class="space"><label style="color:white"> <input type="checkbox" />Hành Động</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Harem</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Học Đường</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Kì Bí</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Kinh Dị</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Lịch Sử</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Mecha</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Parody</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Phép Thuật</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Phiêu Lưu</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Thể Thao</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Tình Cảm</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Tragedy</label></div>
+                            <div class="space"><label style="color:white"><input type="checkbox" />Võ Thuật</label></div>
+</fieldset>
+                    </div>
+                    <input type="submit" style="margin-left:390px;" value="TÌM FILM" onclick="alert('Không Tìm Thấy Film Nào Theo Yêu Cầu!')" class="formnut" />
+</form>
+            </div>
+        </article>
+        
+        <footer>
+            <p> Điều cần biết tại DarkTeaFolylm</p>
+            <p>Chào mừng bạn đã tới xem phim tại DarkTeaFolylm</p>
+            <p>Mong bạn có thể tiếp tục ủng hộ web phát triển mạnh hơn bằng cách share, like, comment.</p>
+            <p>Website chỉ dịch những bộ có đánh dấu logo trong video, còn lại đều lấy từ Fansub.</p>
+            <p>SĐT Liên Hệ: 0925489239</p>
+            <p>Email Liên Hệ: Datthps06159@fpt.edu.vn</p>
+            <div class="info">
+                <a href="gioithieu.html">
+                    <img src="ImageAss/intro.png" />
+                    <b>-----Giới Thiệu-----</b>
+                    <i>Tìm hiểu về chúng tôi</i>
+                </a>
+            </div>
+            <hr />
+            Coppyright© 2017 FPT Polytechnic. All Right Reserved. Designed by Trà Hoàng Đạt.
+        </footer>
+    </div>
+    <script src="JS/stickmenu.js"></script>
+</body>
+</html>
